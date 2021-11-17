@@ -6,31 +6,31 @@ html, body{
 body{
   font-family: 'Kaushan Script', cursive;
 }
-header .title{
+
+.title{
   text-align: center;
   background-color: #554062;
 }
 
-header .title h1{
+.title h1{
   font-size: 80px;
   color: #bd2424;
 }
 
 p{
-  font-size: 10%;
-}
-.main{
-  background-color: #82bcf3;
+  margin: 0
 }
 
 .trans {
   height: 50px;
-  background: linear-gradient(180deg, rgba(85,64,98,1) 30%, rgba(91,80,117,1) 50%, rgba(130,188,243,1) 100%);
+  background: linear-gradient(180deg, rgba(85,64,98,1) 30%, rgba(130,188,243,1) 100%);
 }
 
 .project{
+  background-color: #82bcf3;
 }
 
-.project img{
-  width: 100%;
+.parallax-container{
+  z-index: 1;
+  height: 1000px;
 }
