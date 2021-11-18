@@ -1,36 +1,60 @@
 html, body{
   padding: 0%;
   margin: 0%;
-  width: 100%;
 }
-body{
+h1, h2, h3, h4{
   font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+.bg{
+  background-image: url(../img/bannera.jpg);
+  background-size: cover;
+
+  z-index: -1;
 }
 
 .title{
   text-align: center;
-  background-color: #554062;
+  background-color: #77399f;
 }
 
-.title h1{
+h1{
   font-size: 80px;
-  color: #bd2424;
+  color: #e73d3d;
+}
+
+h2{
+  font-size: 60px;
+  color: #020092;
+}
+
+h3{
+  font-size: 40px;
+  color: #020092;
 }
 
 p{
-  margin: 0
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
 }
 
 .trans {
   height: 50px;
-  background: linear-gradient(180deg, rgba(85,64,98,1) 30%, rgba(130,188,243,1) 100%);
+  background: linear-gradient(180deg, rgba(119,57,159,1) 30%, rgba(199,116,46,1) 100%);
 }
 
-.project{
-  background-color: #82bcf3;
+.bg_main{
+  background-color: #c7742e;
+  padding-bottom: 5%;
 }
 
-.parallax-container{
-  z-index: 1;
-  height: 1000px;
+.parallax-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 300px;
+}
+
+.parallax-container .parallax {
+  z-index: 2;
 }
