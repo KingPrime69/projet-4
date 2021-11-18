@@ -21,13 +21,13 @@ p{
   margin: 0
 }
 
+.project{
+  background-color: #82bcf3;
+}
+
 .trans {
   height: 50px;
   background: linear-gradient(180deg, rgba(85,64,98,1) 30%, rgba(130,188,243,1) 100%);
-}
-
-.project{
-  background-color: #82bcf3;
 }
 
 .parallax-container{
