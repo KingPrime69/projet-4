@@ -56,8 +56,8 @@ p{
 }
 
 .trans {
-  height: 50px;
-  background: linear-gradient(180deg, rgba(38,38,38,1) 40%, rgba(1,31,60,1) 100%);
+  height: 2px;
+  background: radial-gradient(circle, rgba(60,96,124,1) 20%, rgba(255,255,255,1) 100%);
 }
 
 .bg_main{
@@ -74,6 +74,34 @@ p{
   z-index: 2;
 }
 
-.carousel .carousel-slider{
-  height: 200px;
+.carousel .carousel-item {
+  height: 300px !important;
+}
+
+.carousel .carousel-item > img {
+  max-width:100%;height:auto;
+}
+
+.button{
+  text-align: inherit;
+  margin-top: 25%;
+  position: relative;
+  padding: 0;
+  z-index: 10;
+  color: #011f3c;
+}
+
+.button .show{
+  border-radius: 100%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.button .right{
+  margin-right: 10px;
+  text-align: right;
+}
+
+.button .left{
+  text-align: left;
 }
